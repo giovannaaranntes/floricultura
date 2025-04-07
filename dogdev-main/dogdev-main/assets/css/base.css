@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --background: #fff;
+    --foreground: #ebf4ff;
+    --thirdground:#ffc600;
+    --primary: #131923;
+    --secundary: #0055b8;
+    --secundary-foreground: #fff;
+    --hero-background:#f3f3f3;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+html{
+    font-family: "Lato", sans-serif;
+    font-size: 62.5%;
+}
+body{
+    background-color: var(--background);
+    color: var(--primary);
+    font-size: 1.6rem;
+}
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+.button, .button2{
+    display: inline-block;
+    background-color: var(--secundary);
+    border: 2px solid var(--secundary);
+    color: var(--secundary-foreground);
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.button2{
+    background-color: var(--background);
+    color: var(--secundary);
+}
+.button:hover, .button2:hover{
+    opacity: 0.8;
+}
